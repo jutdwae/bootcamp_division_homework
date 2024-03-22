@@ -7,6 +7,20 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int time;
+
+    scanf("%d", &time);
+
+    if (time>=0 && time<=23) {
+        if (time<12) {
+            printf("AM");
+        }
+        else {
+            printf("PM");
+        }
+    }
+    else 
+        printf("다시 입력하세요");
 
     return 0;
 }

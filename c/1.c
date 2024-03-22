@@ -7,6 +7,15 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int num;
+    scanf("%d", &num);
+
+    //456 -> 654
+
+    if (num<=999)
+        printf("%d%d%d", num%10, (num%100)/10, num/100);
+    else
+        printf("다시 입력하세요");
 
     return 0;
 }

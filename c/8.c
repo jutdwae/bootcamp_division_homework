@@ -7,6 +7,27 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int n;
+    int sum = 0;
+    int fac = 1;
+
+    scanf("%d", &n);
+
+    if (n>=0 && n<=12) {
+        //sum
+        for (int i=1; i<=n; i++) {
+            sum += i;
+        }
+        //fac
+        for (int i=1; i<=n; i++) {
+            fac *= i;
+        }    
+    printf("\n%d\n", sum);
+    printf("%d\n", fac);
+    }
+
+    else
+        printf("12이하의 수 입력");
 
     return 0;
 }
