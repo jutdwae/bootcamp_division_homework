@@ -22,10 +22,9 @@ int main() {
         for (int i=1; i<=n; i++) {
             fac *= i;
         }    
-    printf("\n%d\n", sum);
-    printf("%d\n", fac);
+        printf("%d\n", sum);
+        printf("%d", fac);
     }
-
     else
         printf("12이하의 수 입력");
 
